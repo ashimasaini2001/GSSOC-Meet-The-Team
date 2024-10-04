@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(to right, #ffebee, #ffe0b2); /* Full page gradient */
+}
+
+.navbar-brand img {
+  margin-left: 8px;
+}
+
+.nav-link, .dropdown-toggle, .dropdown-item {
+  color: orange;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link {
+  position: relative;
+  margin-left: 20px;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+.nav-link:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: orange;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover, .dropdown-toggle:hover {
+  color: darkorange;
+}
+
+.nav-link:hover:before {
+  transform: translateX(0);
+}
+
+.dropdown {
+  position: relative; 
+}
+
+.dropdown-menu {
+  position:relative;
+  z-index: 1000;
+  background: white; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  display: none; 
+  overflow-x: hidden;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show on hover */
+}
+
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.header-section {
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.main-heading {
+  color: #ff5722;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.sub-heading {
+  color: black; 
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.center {
+  margin: 0 10px;
+}
+
+.btn {
+  padding: 15px 30px;
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid #FF9800;
+  color: #FF9800;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background: #FF9800;
+  color: white;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.team-card {
+  width: 250px;
+  height: 380px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.team-card:hover {
+  background: #fff5e1;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.team-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+}
+
+.team-img:hover {
+  transform: scale(1.2);
+}
+
+.card-body {
+  padding-top: 10px;
+}
+
+.card-body h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.card-body h5:hover {
+  color: #eb8b48;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.icon-list li {
+  list-style: none;
+  margin: 0 4px;
+}
+
+.icon-list li a {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+}
+
+.icon-list li a:hover {
+  border-color: transparent;
+}
+
+.icon-list li a .icon {
+  color: #262626;
+  transition: all 0.5s ease;
+}
+
+.icon-list li a:hover .icon {
+  transform: rotateY(360deg);
+}
+
+.footer-container {
+  background: linear-gradient(to bottom, #FF8500, #FF6701);
+  padding: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: black;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+}
+
+.footer-links h6 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.footer-links span,
+.footer-links a {
+  display: block;
+  margin: 5px 0;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-links a:hover,
+.footer-links span:hover {
+  text-decoration: underline;
+}
+
+.footer-description {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-description h5 {
+  margin: 10px 0;
+}
+
+.footer-description button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-description button:hover {
+  background-color: #555;
+}
+
+.footer-rights {
+  border-top: 1px solid gray;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-rights p {
+  font-weight: bold;
+}
