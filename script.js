@@ -137,7 +137,7 @@
         {
             name: "Aditya Bhaumik", 
             title: "Community Manager", 
-            image: "/remaining_team/Aditya_Bhaumik.png", 
+            image: "./teamPics/Aditya_Bhaumik.png", 
             github:" https://github.com/aditya-bhaumik",
             twitter: "https://twitter.com/cricketaditya30",
             linkedin: "https://www.linkedin.com/in/aditya-bhaumik-62b6b2220/"
@@ -145,7 +145,7 @@
         {
             name: "Chiluka Akshitha", 
             title: "Community Manager", 
-            image: "/remaining_team/Chiluka_Akshitha.png", 
+            image: "./teamPics/Chiluka_Akshitha.png", 
             github: "https://github.com/AKSHITHA-CHILUKA",
             twitter: "https://x.com/AkshithaChiluka",
             linkedin: "https://www.linkedin.com/in/akshitha-chiluka-b19245259"
@@ -153,7 +153,7 @@
         {
             name: "Sneha Kumari", 
             title: "Community Manager", 
-            image: "/remaining_team/Sneha_Kumari.png", 
+            image: "./teamPics/Sneha_Kumari.png", 
             github: "https://github.com/Snehsk",
             twitter: "https://x.com/SnehaKumariSk1",
             linkedin: "https://www.linkedin.com/in/sneha-kumari1/"
@@ -161,7 +161,7 @@
         {
             name: "Anshika Tiwari", 
             title: "Content Writer", 
-            image: "/remaining_team/Anshika_Tiwari.png", 
+            image: "./teamPics/Anshika_Tiwari.png", 
             github: "https://github.com/anshikatiwari20",
             twitter: "#https://x.com/anshikat_20",
             linkedin: "https://www.linkedin.com/in/anshika-tiwari-/"
@@ -169,7 +169,7 @@
         {
             name: "Tejashri Tral", 
             title: "Sponsorship Core", 
-            image: "/remaining_team/Tejashri_Taral.png", 
+            image: "./teamPics/Tejashri_Taral.png", 
             github: "https://github.com/Tejashri-Taral",
             twitter: "https://x.com/Tejashri_10",
             linkedin: "https://www.linkedin.com/in/tejashri-taral-5006a82a0/"
@@ -177,7 +177,7 @@
         {
             name: "Saumili Roy", 
             title: "UI/UX Designer", 
-            image: "/remaining_team/Saumili_Roy.png", 
+            image: "./teamPics/Saumili_Roy.png", 
             github: "https://github.com/sau-mili",
             twitter: "https://twitter.com/SaumiliR",
             linkedin: "https://www.linkedin.com/in/saumili-roy/"
@@ -185,7 +185,7 @@
         {
             name: "Garima Singh", 
             title: "Discord Manager", 
-            image: "/remaining_team/Garima_Singh.png", 
+            image: "./teamPics/Garima_Singh.png", 
             github: "https://github.com/GarimaSingh0109",
             twitter: "https://x.com/GarimaS79949131",
             linkedin: "https://www.linkedin.com/in/garima-singh-279014264"
@@ -193,7 +193,7 @@
         {
             name: "Hemant Panwar", 
             title: "Discord Manager", 
-            image: "/remaining_team/Hemant_Panwar.png", 
+            image: "./teamPics/Hemant_Panwar.png", 
             github: "https://github.com/Hemantlohar",
             twitter: "https://twitter.com/_Hemant_lohar_",
             linkedin: "https://www.linkedin.com/in/hemant-lohar-40195317a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
